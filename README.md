@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## Download Models
 
-We provide our tide model [here](https://doi.org/10.5281/zenodo.16940143) 
+We provide our tide model [here](https://doi.org/10.5281/zenodo.16941397) 
 tide_sdv1.5.bin is TIDE's model. Put it into models/tide
 rename the image encoder's model file name(image_encoder_pytorch_model.bin) as "pytorch_model.bin" and put it into models/image_encoder
 
@@ -31,7 +31,7 @@ To run the demo, you should also download the following models:
 - [ControlNet models](https://huggingface.co/lllyasviel)
 
 ## Download Training Data
-We also provide our training dataset C4DD [here](https://doi.org/10.5281/zenodo.16940143)
+We also provide our training dataset C4DD [here](https://doi.org/10.5281/zenodo.16941397)
 The data structure is like this:
 ```
 data
