@@ -45,6 +45,7 @@ data
 │  ├── 0.png
 │  ├── 1.png
 ├── ...
+```
 
 ## Train Models
 Before training, please prepare at least two 32G graphics cards for the training process. In addition to the above-mentioned SD models you need to have ready, your training data should be stored in the "data" folder and you need to create the "dpo_data.json" file. After that, you can directly run
