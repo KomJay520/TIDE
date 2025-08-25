@@ -1,7 +1,7 @@
 # ___***TIDE: Achieving Balanced Subject-Driven Image Generation via Target-Instructed Diffusion Enhancement***___
 This repository gives the official implementation of TIDE: Achieving Balanced Subject-Driven Image Generation via Target-Instructed Diffusion Enhancement
 
-![Example](teaser.pdf)
+![Example](teaser.png)
 
 ### [Paper]()
 
