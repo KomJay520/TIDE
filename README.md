@@ -13,6 +13,7 @@ This repository gives the official implementation of TIDE: Achieving Balanced Su
 ```
 # install latest diffusers
 pip install diffusers==0.22.1
+pip install jupyter
 pip install -r requirements.txt
 
 # then you can use the notebook
@@ -29,6 +30,21 @@ To run the demo, you should also download the following models:
 
 ## Download Training Data
 We provide our dataset C4DD [here](https://doi.org/10.5281/zenodo.16940143)
+The data structure is like this:
+```
+data
+├── prompts
+│  ├── prompt0.txt
+│  ├── prompt1.txt
+│  ├── ...
+├── source
+│  ├── 0.png
+│  ├── 1.png
+│  ├── ...
+├── TI
+│  ├── 0.png
+│  ├── 1.png
+├── ...
 
 ## Train Models
 Before training, please prepare at least two 32G graphics cards for the training process. In addition to the above-mentioned SD models you need to have ready, your training data should be stored in the "data" folder and you need to create the "dpo_data.json" file. After that, you can directly run
@@ -39,6 +55,10 @@ to start the training.
 
 ## Use TIDE model
 We provide tide_demo.ipynb and tide_controlnet_demo.ipynb for using the model. You can use Jupyter Notebook to run them.
+```
+source your_env/bin/source
+jupyter notebook
+```
 
 ## Maintenance
 
