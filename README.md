@@ -76,7 +76,8 @@ source your_env/bin/source
 jupyter notebook
 ```
 ## Evaluate TIDE model
-We provide eval_dreambanch.ipynb and eval_concept101.ipynb for evaluating TIDE in SDIG task. You can use Jupyter Notebook to run them.
+We provide eval_dreambanch.ipynb and eval_concept101.ipynb in eval/eval_SDIG for evaluating TIDE for SDIG task. You can use Jupyter Notebook to run them. 
+
 Furthermore, following REFace's evaluation setting, we evaluate TIDE in face swapping task. The evaluating tools are in eval/eval_face.
 
 ## Maintenance
