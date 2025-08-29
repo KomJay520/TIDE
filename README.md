@@ -87,3 +87,15 @@ Please open a GitHub issue for any help. If you have any questions regarding the
 ## License
 
 This project is licensed under the MIT License. See LICENSE.txt for the full MIT license text.
+
+## Citation  
+If you use this code, dataset, or method in your research, please cite our manuscript:  
+
+```bibtex
+@article{tide2025,
+  title={TIDE: Achieving Balanced Subject-Driven Image Generation via Target-Instructed Diffusion Enhancement},
+  author={Jibai Lin, Bo Ma, Yating Yang, Rong Ma, Turghun Osman, Ahtamjan Ahmat, Rui Dong, Lei Wang and Xi Zhou},
+  journal={Submitted to The Visual Computer},
+  year={2025},
+  note={Submission ID: 0e0dc9e4-8412-4eba-9654-67d9ebcdd2f1}
+}
