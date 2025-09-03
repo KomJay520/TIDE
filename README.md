@@ -75,6 +75,12 @@ We provide tide_demo.ipynb and tide_controlnet_demo.ipynb for using the model. Y
 source your_env/bin/source
 jupyter notebook
 ```
+With TIDE, it is easy to generate customed images like following:
+![Example](asserts/output.png)
+
+Beside, if you want to use some condiction image to guide the generation, you can generate images like following:
+![Example](asserts/control.png)
+
 ## Evaluate TIDE model
 We provide eval_dreambanch.ipynb and eval_concept101.ipynb in eval/eval_SDIG for evaluating TIDE for SDIG task. You can use Jupyter Notebook to run them. 
 
