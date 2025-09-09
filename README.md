@@ -102,7 +102,7 @@ If you use this code, dataset, or method in your research, please cite our manus
 @article{tide2025,
   title={TIDE: Achieving Balanced Subject-Driven Image Generation via Target-Instructed Diffusion Enhancement},
   author={Jibai Lin, Bo Ma, Yating Yang, Rong Ma, Turghun Osman, Ahtamjan Ahmat, Rui Dong, Lei Wang and Xi Zhou},
-  journal={Submitted to The Visual Computer},
+  journal={Submitted to ICASSP},
   year={2025},
-  note={Submission ID: 87bd32a5-d30d-4794-8001-3acea8516082}
+  note={Submission ID: }
 }
