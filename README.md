@@ -101,8 +101,8 @@ If you use this code, dataset, or method in your research, please cite our manus
 ```bibtex
 @article{tide2025,
   title={TIDE: Achieving Balanced Subject-Driven Image Generation via Target-Instructed Diffusion Enhancement},
-  author={Jibai Lin, Bo Ma, Yating Yang, Rong Ma, Turghun Osman, Ahtamjan Ahmat, Rui Dong, Lei Wang and Xi Zhou},
-  journal={Submitted to ICASSP},
+  author={Jibai Lin, Bo Ma, Yating Yang, Xi Zhou, Rong Ma, Turghun Osman, Ahtamjan Ahmat, Rui Dong, Lei Wang},
+  journal={Submitted to ICASSP 2026},
   year={2025},
-  note={Submission ID: }
+  note={Paper Number: 10558}
 }
