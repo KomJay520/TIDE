@@ -1,5 +1,5 @@
-# ___***TIDE: Achieving Balanced Subject-Driven Image Generation via Target-Instructed Diffusion Enhancement***___
-This repository gives the official implementation of TIDE: Achieving Balanced Subject-Driven Image Generation via Target-Instructed Diffusion Enhancement
+# ___***TIDE: Target-Instructed Diffusion Enhancement for Personalizing Image Generation***___
+This repository gives the official implementation of TIDE: Target-Instructed Diffusion Enhancement for Personalizing Image Generation
 
 ![Example](asserts/teaser.png)
 
@@ -7,7 +7,18 @@ This repository gives the official implementation of TIDE: Achieving Balanced Su
 Our paper is released here.
 
 ## Abstract
->Subject-driven image generation (SDIG) aims to manipulate specific subjects within images while adhering to textual instructions, a task crucial for advancing text-to-image diffusion models. SDIG requires reconciling the tension between maintaining subject identity and complying with dynamic edit instructions, a challenge inadequately addressed by existing methods. In this paper, we introduce the Target-Instructed Diffusion Enhancing (TIDE) framework, which resolves this tension through target supervision and preference learning without test-time fine-tuning. TIDE pioneers target-supervised triplet alignment, modelling subject adaptation dynamics using a (reference image, instruction, target images) triplet. This approach leverages the Direct Subject Diffusion (DSD) objective, training the model with paired "winning" (balanced preservation-compliance) and "losing" (distorted) targets, systematically generated and evaluated via quantitative metrics. This enables implicit reward modelling for optimal preservation-compliance balance. Experimental results on standard benchmarks demonstrate TIDE's superior performance in generating subject-faithful outputs while maintaining instruction compliance, outperforming baseline methods across multiple quantitative metrics. TIDE's versatility is further evidenced by its successful application to diverse tasks, including structural-conditioned generation, image-to-image generation, and text-image interpolation. Our code is available here (https://github.com/KomJay520/TIDE)
+>Personalized image generation aims to perform controllable editing and generation of specific subjects based on reference 
+images and textual instructions. Existing methods lack supervision signals that can uniformly constrain subjects, instructions, and 
+generation results in complex textual editing tasks, leading to inconsistency between training objectives and the final personalized 
+generation task goals. Consequently, models struggle to learn a stable and optimal balance between subject fidelity and instruction 
+compliance. To address this issue, this paper proposes a test-time fine-tuning free Target-Instructed Diffusion Enhancement (TIDE) 
+method. Specifically, the method constructs a triplet supervised dataset consisting of reference images, textual instructions, and target 
+images to provide multimodal constraints and target supervision for the model. It achieves multimodal information interaction through 
+a lightweight feature fusion module while keeping the base model parameters unchanged. On this basis, Direct Subject Diffusion 
+Optimization (DSDO) is designed, which takes the trajectory differences between winning and losing target images in the noise space 
+as implicit rewards. These implicit rewards guide the diffusion model to achieve the optimal balance between subject fidelity and 
+instruction compliance during generation. Experimental results show that on the DreamBench and Concept101 benchmarks, the proposed method achieves the optimal comprehensive performance across multiple core metrics and exhibits excellent zero-shot generalization 
+capability in various downstream tasks.
 
 ## Installation
 
