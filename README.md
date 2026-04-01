@@ -112,7 +112,7 @@ If you use this code, dataset, or method in your research, please cite our manus
 ```bibtex
 @article{tide2025,
   title={Target-Instructed Diffusion Enhancement for Personalizing Image Generation},
-  author={Jibai Lin, Bo Ma, Yating Yang, Xi Zhou, Rong Ma, Ahtamjan Ahmat, Rui Dong},
+  author={Jibai Lin, Bo Ma, Yating Yang, Xi Zhou, Rong Ma, Ahmat Ahtamjan, Rui Dong},
   journal={Journal of Chinese Computer Systems},
   year={2026},
   note={Paper Number: 2025-0506}
